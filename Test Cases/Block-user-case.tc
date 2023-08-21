@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Block-user-case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2794f5c-bbc7-4bb0-a6ee-222c1dfe88cf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8882948a-27b1-4917-affc-fed1e3795d5a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8882948a-27b1-4917-affc-fed1e3795d5a</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+</TestCaseEntity>

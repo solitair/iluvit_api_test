@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>ExpoToken 삭제</name>
+   <tag></tag>
+   <elementGuidId>c9671c7d-086a-402f-b1c4-b22a1ef109bb</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJJTHV2SXRfQWNjZXNzVG9rZW4iLCJpZCI6OTMsImV4cCI6MTcwODk3NjMzOX0.IuSi6Ush4oigCg4AQP8igkVt6IIWaIUcz3_st4wvKF7ZNtn6lZnLxqoQ1UpkW_SvDtRPxUrqi8Gs39Xu26DG7w</value>
+      <webElementGuid>b0de9fe0-34c9-4db2-9ff2-95bf8c0084e5</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ExpoToken</name>
+      <type>Main</type>
+      <value>ExponentPushToken[BXTrAKAijw84qVaZmplXrM]</value>
+      <webElementGuid>403f71b3-b3a4-4f08-9641-370f8e968dc0</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.6.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>http://api.iluvit.app/expo-tokens</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
