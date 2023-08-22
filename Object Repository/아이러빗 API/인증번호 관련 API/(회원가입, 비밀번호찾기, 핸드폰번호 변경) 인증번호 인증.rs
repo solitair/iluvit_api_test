@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;phoneNum\&quot;: \&quot;${GlobalVariable.G_ParentPhoneNumber}\&quot;,\n    \&quot;authNum\&quot;: \&quot;1776\&quot;,\n    \&quot;authKind\&quot;: \&quot;signup\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;phoneNum\&quot;: \&quot;${GlobalVariable.G_ParentPhoneNumber}\&quot;,\n    \&quot;authNum\&quot;: \&quot;8442\&quot;,\n    \&quot;authKind\&quot;: \&quot;signup\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

@@ -6,12 +6,12 @@
    <elementGuidId>e869e9df-18af-41f3-8526-0cf11f419934</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;loginId\&quot;: \&quot;parent7247\&quot;,\n    \&quot;password\&quot;: \&quot;parent7247!\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;loginId\&quot;: \&quot;${loginId}\&quot;,\n    \&quot;password\&quot;: \&quot;${password}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -37,6 +37,20 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'parent0745'</defaultValue>
+      <description></description>
+      <id>4d9f4111-c0e5-46b2-ba7e-3a9d0e7a4541</id>
+      <masked>false</masked>
+      <name>loginId</name>
+   </variables>
+   <variables>
+      <defaultValue>'parent0745!'</defaultValue>
+      <description></description>
+      <id>cb745c6b-ac56-40f9-ae96-abcef57db6df</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

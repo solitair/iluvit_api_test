@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('login-success'))
+loginId = 'parent0765'
+
+password = 'parent0765!'
+
+response = WS.sendRequest(findTestObject('아이러빗 API/유저 API/로그인', [('loginId') : loginId, ('password') : password]))
 
 statusCode = WS.getResponseStatusCode(response)
 
